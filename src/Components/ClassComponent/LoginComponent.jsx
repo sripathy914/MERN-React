@@ -6,6 +6,7 @@ class Login extends React.Component {
         return (
             <div>
                 <h1>Login your credentials...</h1>
+                <submit/>
             </div>
         )
     }
