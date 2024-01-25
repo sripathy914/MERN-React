@@ -16,7 +16,16 @@ ol{
     flex-direction: row;
     width: auto;
     list-style-type: none;
+    padding: 20px;
+    margin: 0px;
+    background-color: aqua;
+
+}
+li
+{
     text-decoration: none;
+    color: inherit;
+
 }
 div
 {
