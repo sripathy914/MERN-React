@@ -15,7 +15,7 @@ class StateComponent extends React.Component {
         });
     };
 
-    render() {
+    render() { 
         return (
             <div>
                 <h1>This is StateComponent...</h1>

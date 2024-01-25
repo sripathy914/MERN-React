@@ -62,6 +62,8 @@ input::placeholder
     width: 100px;
     height: 40px;
     cursor: progress;
+    background-color: blueviolet;
+    color: white;
 }
 .button2
 {
@@ -73,6 +75,8 @@ input::placeholder
 .button1:hover
 {
     background-color: aquamarine;
+    color: black;
+    font-weight:200;
 }
 .button2:hover
 {
@@ -83,7 +87,7 @@ input::placeholder
 {
     .container
     {
-        background-color: aqua;
+        background-color: a                                                                                                                                qua;
     }
     .form1
     .form2

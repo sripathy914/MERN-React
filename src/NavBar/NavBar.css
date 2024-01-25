@@ -1,0 +1,25 @@
+@media (max-width:425px)
+{
+ol{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: auto;
+    list-style-type:none;
+}
+}
+@media (min-width:500px)
+{
+ol{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: auto;
+    list-style-type: none;
+    text-decoration: none;
+}
+div
+{
+
+}
+}
