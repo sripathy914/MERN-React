@@ -1,8 +1,7 @@
 import React from "react";
 import './Login.css';
 
-class Login extends React.Component {
-    render() {
+const Login =() =>{
         return (
             <div class="container">
                 <div class="form1">
@@ -35,5 +34,4 @@ class Login extends React.Component {
             </div>
         )
     }
-}
 export default Login;
