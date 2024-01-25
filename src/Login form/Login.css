@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 750px;
+    height: 730px;
     width: 100%;
     background-color: aqua;
 
@@ -14,13 +14,20 @@ input
     height: 40px;
     width: 250px;
     margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
 } 
+input::placeholder
+{
+
+}
 .form1
 {
     display: flex;
     justify-content: center;
     flex-direction: column;   
-    background-color: beige; 
+    /* background-color: beige;  */
     align-items: center;
     height: auto;
     padding: 20px;
@@ -71,13 +78,12 @@ input
     background-color: aquamarine;
 }
 
-@media (max-width:400px)
+@media (max-width:426px)
 {
     .container
     {
         background-color: aqua;
     }
-    .containergi
     .form1
     .form2
     .input

@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import PropsFunction from './Components/FunctionComponent/PropsFunction';
+import StateComponent from './Components/ClassComponent/StateComponent';
 
 function App() {
   return (
     <div className="App">
-      <PropsFunction name="Sripathy R S" behaviour="good"></PropsFunction>
+      <StateComponent rollno="21CDR050" name="Sripathy"></StateComponent>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
