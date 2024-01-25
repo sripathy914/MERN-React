@@ -1,14 +1,14 @@
 import React from "react";
-import submit from "../FunctionComponent/TestComponent";
+import TestComponent from "../FunctionComponent/TestComponent";
 
-class Login extends React.Component {
+class LoginComponent extends React.Component {
     render() {
         return (
             <div>
                 <h1>Login your credentials...</h1>
-                <submit />
+                <TestComponent/>
             </div>
         )
     }
 }
-export default Login;
+export default LoginComponent;

@@ -1,0 +1,68 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    width: 100%;
+    background-color: aqua;
+
+}
+
+input
+{
+    height: 40px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.form1
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    background-color: beige; 
+    align-items: center;
+    height: auto;
+    padding: 20px;
+} 
+.form2
+{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;  
+    border: 3px solid black;
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 20px;
+    align-items: center;
+    height: auto;
+    width: 300px;
+    gap: 10px;
+    
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.button1
+{
+    width: 100px;
+}
+.button2
+{
+    width: 100px;
+}
+
+.button1:hover
+{
+    background-color: aquamarine;
+}
+.button2:hover
+{
+    background-color: aquamarine;
+}

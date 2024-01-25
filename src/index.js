@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Login from './Components/ClassComponent/LoginComponent';
+import LoginComponent from './Components/ClassComponent/LoginComponent';
+import Login from './Login form/Login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <Login/>
+    <Login></Login>
   </div>
 );  
 

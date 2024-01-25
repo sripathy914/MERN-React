@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactDOM } from "react";
 
-function submit() 
+function TestComponent() 
 {
     return(
         <div>
@@ -10,4 +10,4 @@ function submit()
         </div>
     )
 }
-export default submit;
+export default TestComponent;
