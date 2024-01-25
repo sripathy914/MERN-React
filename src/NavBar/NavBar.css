@@ -19,14 +19,14 @@ ol{
     width: auto;
     list-style-type: none;
     padding: 20px;
+    margin: 0px;
+    margin-bottom: -23px;
     background-color: rgb(126, 131, 155);
     color: white;
     filter: drop-shadow(0px 0px 5px rgb(252, 252, 252));
     font-size: large;
-    position: fixed;
-    width: 100%;
     
-    margin: auto;
+
 }
  .navlink
  {
@@ -49,7 +49,7 @@ ol{
 {
     
     height: 300px;
-    background-color: rgb(126, 131, 155);
+    background-color: transparent;
     filter: drop-shadow(10px 10px 20px rgb(252, 252, 252));
     border-radius: 10px;
     margin-bottom: -10px;

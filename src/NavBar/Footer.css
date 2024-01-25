@@ -1,0 +1,29 @@
+/* Footer.css */
+.Footer {
+    background-color: rgb(64, 64, 69);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .FooterContent {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  .ContactInfo, .SocialLinks {
+    flex: 1;
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .SocialLinks a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px; /* Adjust margin between social links */
+  }
+  
+  .Copyright {
+    margin-top: 10px;
+  }
+  

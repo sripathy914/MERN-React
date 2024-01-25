@@ -3,7 +3,8 @@ import NavBar from './NavBar/NavBar';
 import About from './NavBar/About';
 import Achievements from './NavBar/Achiements'
 import ContactUs from './NavBar/ContactUs';
-import Login from './NavBar/Login';
+// import Login from './NavBar/Login';
+import Footer from './NavBar/Footer';
 import './NavBar/NavBar.css'
 
 import { Link } from 'react-router-dom';
@@ -13,7 +14,7 @@ import Home from './NavBar/Home';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
           <NavBar/>
           <Routes>
@@ -21,11 +22,9 @@ function App() {
             <Route path="/About" element={<About/>}/>
             <Route path="/Achievements" element={<Achievements/>}/>
             <Route path="/ContactUs" element={<ContactUs/>}/>
-            <Route path="/Login" element={<Login/>}/>
+            {/* <Route path="/Login" element={<Login/>}/> */}
           </Routes>
-          <div class="Foot">
-            <div></div>
-          </div> 
+          <Footer />
       </BrowserRouter>
       
     </div>
