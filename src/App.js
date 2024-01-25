@@ -14,7 +14,7 @@ import Home from './NavBar/Home';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <BrowserRouter>
           <NavBar/>
           <Routes>

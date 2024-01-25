@@ -1,8 +1,9 @@
 import React from "react";
+import './NavBar.css';
 
 const About = () =>{
     return(
-        <div>
+        <div class="home">
             <h1>This is About page</h1>
         </div>
     )

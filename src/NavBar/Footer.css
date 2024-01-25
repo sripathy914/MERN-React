@@ -1,29 +1,26 @@
-/* Footer.css */
-.Footer {
-    background-color: rgb(64, 64, 69);
+.Footer
+{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(32, 32, 32);
     color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .FooterContent {
+    
+}
+.FooterContent 
+{
     display: flex;
-    justify-content:center;
-    align-items: center;
-  }
-  
-  .ContactInfo, .SocialLinks {
-    flex: 1;
-    padding: 10px; /* Add padding for better spacing */
-  }
-  
-  .SocialLinks a {
-    color: white;
-    text-decoration: none;
-    margin-right: 10px; /* Adjust margin between social links */
-  }
-  
-  .Copyright {
-    margin-top: 10px;
-  }
-  
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;  
+} 
+@media (max-width:525px) {
+    .FooterContent{
+        padding-left: 120px;
+        padding-right: 120px;
+        display: flex;
+        flex-direction: column;
+        
+        text-align: left;
+    }
+}
