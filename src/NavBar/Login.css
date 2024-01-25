@@ -18,10 +18,10 @@ input
     padding-right: 15px;
     
 } 
-input::placeholder
+/* input::placeholder
 {
 
-}
+} */
 .form1
 {
     display: flex;

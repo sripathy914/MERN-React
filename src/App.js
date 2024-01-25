@@ -24,7 +24,7 @@ function App() {
             <Route path="/Login" element={<Login/>}/>
           </Routes>
           <div class="Foot">
-            
+            <div></div>
           </div> 
       </BrowserRouter>
       
