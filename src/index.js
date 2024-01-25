@@ -8,7 +8,7 @@ import Login from './Login form/Login';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <App/>
+    <Login/>
   </div>
 );  
 

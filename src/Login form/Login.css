@@ -54,6 +54,7 @@ input::placeholder
     justify-content: center;
     flex-direction: row;
     gap: 30px;
+    padding-top: 10px;
 }
 
 .button1
