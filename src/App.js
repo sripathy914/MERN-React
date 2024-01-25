@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import PropsFunction from './Components/FunctionComponent/PropsFunction';
 
 function App() {
   return (
     <div className="App">
+      <PropsFunction name="Sripathy R S" behaviour="good"></PropsFunction>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

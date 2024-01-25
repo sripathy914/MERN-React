@@ -8,6 +8,7 @@ class LoginComponent extends React.Component {
                 <h1>Login your credentials...</h1>
                 <TestComponent/>
             </div>
+
         )
     }
 }
