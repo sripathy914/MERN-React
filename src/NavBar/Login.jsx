@@ -5,7 +5,7 @@ const Login =() =>{
         return (
             <div class="container">
                 <div class="form1">
-                    <h1>Registration Form</h1>
+                    
                     <div class="form2">
                         <h2>Login</h2>
                         <form>
