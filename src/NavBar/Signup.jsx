@@ -1,15 +1,15 @@
 import React from "react";
 import './Login.css';
-import { Link } from "react-router-dom";
-import Signup from './Signup'
+import Login from "./Login";
+import { Link } from "react-router-dom"; 
 
-const Login =() =>{
+const Signup =() =>{
         return (
-            <div class="loginsignup">
+            <div class="loginsignup"> 
                 <div class="container">
                     <div class="form1">
                         <div class="form2">
-                            <h2 class="logintext">Login</h2>
+                            <h2 class="logintext">Register</h2>  
                             <form>
                                 <table>
                                     <tr>
@@ -27,19 +27,19 @@ const Login =() =>{
                                         <a href="#">forgot password?</a> 
                                     </div>
                                     <div class="loginbutton">
-                                        <button class="button1" type="submit">Login</button>
+                                        <button class="button1">SignUp</button>
                                     </div>
                                     <div class="signupbutton"> 
-                                        <p class="accountclass">Don't have an account,</p>
-                                        <Link to="/Signup"><button class="button2">Signup</button></Link>
+                                        <p class="accountclass">Already have an account,</p>
+                                        <Link to="/Login"><button class="button2">Login</button></Link>
                                     </div>
                                 </table>
 
                             </form>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>    
         )
     }
-export default Login;
+export default Signup;

@@ -7,6 +7,11 @@
     width: 100%;
 }
 
+.logintext
+{
+    font-size: 25px;
+    color: black;
+}
 .loginsignup
 {
    color: rgb(0, 0, 0);
@@ -15,7 +20,7 @@
    background-position: center;
    background-size: cover;
    height: 600px;
-}
+} 
 
 input
 {
@@ -24,6 +29,7 @@ input
     margin-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    border-radius: 5px;
     
 } 
 /* input::placeholder
@@ -46,7 +52,8 @@ input
     display: flex;
     justify-content: center; 
     flex-direction: column;  
-    border: 3px solid black;
+    border: 1px solid black;
+    
     background-color: aliceblue;
     padding: 30px;
     margin: 20px;
@@ -54,7 +61,17 @@ input
     height: auto;
     width: 300px;
     gap: 10px;
+    border-radius: 10px;
+    opacity: 1;
+    background-color: rgba(194, 194, 194, 0.5);
     
+}
+.anchor
+{
+    font-size: 13px;
+    text-align: right; 
+    padding-right: 15px; 
+    font-weight: 500;
 }
 
 .buttons
@@ -63,22 +80,41 @@ input
     justify-content: center;
     flex-direction: row;
     gap: 30px;
-    padding-top: 10px;
+    padding-top: 30px;
+    
 }
 
 .button1
 {
-    width: 100px;
+    width: 200px;
     height: 40px;
     cursor: progress;
     background-color: blueviolet;
     color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+
 }
 .button2
 {
-    width: 100px;
-    height: 40px;
-
+    width: 0px;
+    height: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px ;
+    border: 0px;
+    font-weight:200;
+    text-decoration: underline;
+    font-weight: 600;
+    
+    background-color: inherit;
+} 
+.accountclass
+{
+    font-size: 15px;
+    
 }
 
 .button1:hover
@@ -86,11 +122,20 @@ input
     background-color: aquamarine;
     color: black;
     font-weight:200;
+    
 }
-.button2:hover
+.signupbutton
 {
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: center;
+    padding-right: 40px;
+    font-weight: 500;
+    
 }
+
+ 
 .aboutpage
 {
     height: 1000px;
@@ -104,14 +149,20 @@ input
 {
     .container
     {
-        background-color: a                                                                                                                                qua;
+        margin-right: 30px;
+        background-position: cover;
+    }
+
+    body
+    {
+        background-position: cover;
     }
     .form1
     .form2
     .input
     .buttons
     {
-        width: 50%;
+        width: 30%;
         height: 50%;
     }
  
