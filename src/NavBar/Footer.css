@@ -15,7 +15,7 @@
     flex-wrap: wrap;  
 } 
 @media (max-width:525px) {
-    .FooterContent{
+    .FooterContent{ 
         padding-left: 120px;
         padding-right: 120px;
         display: flex;
