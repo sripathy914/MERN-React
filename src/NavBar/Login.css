@@ -5,8 +5,16 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+}
 
+.loginsignup
+{
+   color: rgb(0, 0, 0);
+   background-image: url('./backimage.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 600px;
 }
 
 input

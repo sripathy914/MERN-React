@@ -12,6 +12,7 @@ const Home = () => {
                 </div>
                 <div class="homebuttons">
                 <button class="explore">Explore</button>
+                     
                 </div>
             </div>
 

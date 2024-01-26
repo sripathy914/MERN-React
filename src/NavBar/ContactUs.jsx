@@ -1,11 +1,12 @@
 import React from "react";
 import { useReducer } from "react";
 import { useState } from "react";
+import './ContactUs.css'
 
-const ContactUs = () =>{
+const ContactUs = () =>{ 
     return(
-        <div class="home">
-            <h1>This is ContactUs page</h1>
+        <div class="contactme">
+            
         </div>
     )
 }
