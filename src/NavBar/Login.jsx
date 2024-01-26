@@ -12,9 +12,7 @@ const Login =() =>{
                             <h2 class="logintext">Login</h2>
                             <form>
                                 <table>
-                                    <tr>
-                                        <td><input type="text" placeholder="Enter your name"></input></td>
-                                    </tr>
+                                    
 
                                     <tr>
                                         <td><input type="email" placeholder="Enter your email"></input></td>
@@ -27,7 +25,7 @@ const Login =() =>{
                                         <a href="#">forgot password?</a> 
                                     </div>
                                     <div class="loginbutton">
-                                        <button class="button1" type="submit">Login</button>
+                                        <button class="button1" type="submit">Login</button> 
                                     </div>
                                     <div class="signupbutton"> 
                                         <p class="accountclass">Don't have an account,</p>

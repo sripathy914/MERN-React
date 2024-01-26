@@ -23,9 +23,7 @@ const Signup =() =>{
                                     <tr>
                                         <td><input type="password" placeholder="Enter your Password"></input></td>
                                     </tr>
-                                    <div  class="anchor">
-                                        <a href="#">forgot password?</a> 
-                                    </div>
+                                    
                                     <div class="loginbutton">
                                         <button class="button1">SignUp</button>
                                     </div>
