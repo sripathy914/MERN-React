@@ -1,0 +1,41 @@
+.home 
+{
+   height: 1000px;
+   color: rgb(0, 0, 0);
+   background-image: url('./nature\ image.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    height: 600px;
+}
+.div1
+{
+    color: white;
+    text-align: left;
+    padding-left: 70px;
+    padding-top:300px;
+    
+}
+h1
+{
+    font-size: 40px;
+}
+
+.div2
+{
+
+}
+
+.explore
+{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
+.explore:hover
+{
+    background-color:white;
+    color: black;
+}
+

@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
-@media (max-width:525px)
-=======
 @media (max-width:499px)
->>>>>>> 183d68a8a20e30201babff59446916bfaca1f8e6
 {
 ol{
     display: flex;
@@ -40,11 +36,4 @@ ol{
     color: inherit; 
  }
 
- .home 
- {
-    height: 1000px;
-    color: rgb(0, 0, 0);
-    margin: 0px;
-
-    
- }
+ 

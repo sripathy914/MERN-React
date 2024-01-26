@@ -1,4 +1,6 @@
 import React from "react";
+import { useReducer } from "react";
+import { useState } from "react";
 
 const ContactUs = () =>{
     return(
