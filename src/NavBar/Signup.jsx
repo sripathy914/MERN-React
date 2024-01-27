@@ -33,7 +33,7 @@ const Signup =() =>{
                                     </div>
                                 </table>
 
-                            </form>
+                            </form> 
                         </div>
                     </div>
                 </div>
