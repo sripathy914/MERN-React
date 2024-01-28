@@ -7,18 +7,21 @@
    background-size: cover;
    height: 700px;
 } 
+
 .whoiam
 {
    color: rgb(176, 179, 180);
    font-size: 35px;
+   
 }
 .super{
    display: flex;
    flex-direction: column;
    justify-content: center;
    height: 700px;
-   width: 1515px;
+   width: 100%;
    align-items: center;
+   
    
 }
 .ispan
@@ -29,14 +32,15 @@
 .main
 {
    
-   width: 1200px;
+   width: auto;
    padding: 0px;
    
    display: flex;
    flex-direction: row;
    justify-content: center;
    align-items: center;
-   gap:-40px;
+   margin-right: 100px;
+   margin-left: 100px;
    filter: drop-shadow(0px 0px 10px white);
 }
  
@@ -46,10 +50,10 @@
    background-color: rgb(73, 74, 74);
    border-radius: 10px;
    padding-top: 0px;
-   width: 1100px;
+   width: 100%;
    color: aliceblue;
    padding-top: 30px;
-   font-size: 20px;
+   font-size: 18px;
    padding: 30px; 
 }
 
@@ -63,30 +67,142 @@
    display: flex;
    flex-direction: row;
    justify-content: center;
-   height: 700px;
-   width: 1515px;
+   height: auto;
+   width: 100%;
    align-items: center;
-   background-color: rgb(17, 16, 16);
+   
+   background-color:black;
+}
+.skills
+{
+   color: white;
+   filter: drop-shadow(0px 0px 10px white);
+   
 }
 .main1
 {
-   height: 400px;
-   width: 1400px;
-   background-color: rgb(88, 74, 74);
+   height: auto;
+   width: auto; 
+   margin-top: 50px;
    display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
+   flex-direction: column;
+   justify-content:space-evenly;
    align-items: center;
+   margin-right: 100px;
+   margin-left: 00px; 
+   gap: 50px;
+   
 }
 .box3{
-   height: 200px;
+   height: 400px;
    width: 400px;
-   background-color: aliceblue;
+   
+   background-color: aliceblue; 
    border-radius: 10px;
 }
 .box4{
-   height: 200px;
+   height: 400px;
    border-radius: 10px;
+   
    width: 400px;
    background-color: aliceblue;
+}
+.main2
+{
+   
+   height: 400px;
+   width: 400px; 
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-right: 100px;
+   margin-left: 100px; 
+   margin-top: 30px;
+   gap: 40px; 
+   
+}
+.box5
+{
+   height: 400px;
+   border-radius: 10px;
+   
+   width: 400px;
+   background-color: aliceblue; 
+}
+
+.main3
+{
+   height: 400px;
+   width: auto; 
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 100px;
+   margin-left: 100px; 
+   margin-top: 70px;
+   
+}
+.super2
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   height: auto;
+   width: 100%;
+   align-items: center;
+   
+   background-color:black;
+}
+.skills2
+{
+   color: white;
+   filter: drop-shadow(0px 0px 10px white);
+   margin-left: 100px;
+   
+}
+.box6
+{
+   height: 400px;
+   border-radius: 10px;
+   
+   width: 600px;
+   background-color: aliceblue;
+} 
+.main4
+{
+   height: 400px;
+   width: 400px; 
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-right: 100px;
+   margin-left: 100px; 
+   margin-top: 80px;
+   gap: 40px;
+}
+.box7
+{
+   height: 150px;
+   border-radius: 10px;
+   
+   width: 400px;
+   background-color: aliceblue;
+}
+.main5
+{
+   height: 400px;
+   width: auto; 
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 100px;
+   margin-left: 100px; 
+   margin-top: 70px;
+   margin-bottom: 70px;
 }
