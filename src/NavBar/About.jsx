@@ -8,7 +8,7 @@ const About = () => {
         <div class="total">
             <div class="image">
                 <div className="super">
-                    <h1 class="whoiam">Who    <span class="ispan" style={{ color: "white" }}>I</span>       am ?</h1>
+                    <h1 class="whoiam">Who<span class="ispan" style={{ color: "white" }}>I</span>am ?</h1>
                     <div className="main">
                         <div class="innertext">
                             As a Computer Science enthusiast, I thrive on exploring diverse technologies, from AR/VR
