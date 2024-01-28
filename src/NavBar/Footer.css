@@ -1,7 +1,6 @@
 .Footer
 {
     
-
     width: 100%; 
     height: 300px;
     background-color: rgb(32, 32, 32);
@@ -28,7 +27,7 @@
     
 }
 
-@media (max-width:525px) {
+@media (max-width:426px) {
     .FooterContent{ 
         padding-left: 80px;
         padding-right: 120px;

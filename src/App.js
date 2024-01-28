@@ -24,7 +24,7 @@ function App() {
             {/* <Route path="/Achievements" element={<Achievements/>}/> */}
             <Route path="/ContactUs" element={<ContactUs/>}/>
             <Route path="/Login" element={<Login/>}/> 
-            <Route path="/Signup" element={<Signup/>}/>  
+            <Route path="/Signup" element={<Signup/>}/>   
           </Routes>
           <Footer />  
 

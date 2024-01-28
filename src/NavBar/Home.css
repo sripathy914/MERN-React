@@ -6,7 +6,7 @@
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   height: 600px;
+   height: 700px;
 }
 .div1
 {
@@ -16,7 +16,11 @@
     padding-top:300px;
     
 }
-h1
+.para
+{
+    font-size: 20px;
+}
+.sripathy
 {
     font-size: 40px;
 }
@@ -27,11 +31,11 @@ h1
 {
     background-color: black;
     color: white;
-    width: 200px;
-    height: 40px;
-    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    margin-top: 50px;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 17px;
     filter: drop-shadow(0px 0px 10px white);
     transition: background-color 0.6s, color 0.6s, box-shadow 0.6s; 
 }
@@ -52,12 +56,13 @@ h1
 
     h1
     {
-        font-size: 26px;
+        font-size: 30px;
         padding-left:-10px ;
     }
     .srispan
     {
         display: flex;
+        font-size: 28px;
     }
     .div1
     {
@@ -66,5 +71,5 @@ h1
     padding-left: 50px;
     padding-top:250px;
     
-    }
+    } 
 }
