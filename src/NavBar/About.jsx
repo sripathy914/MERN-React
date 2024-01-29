@@ -1,9 +1,9 @@
 import React from "react";
-import { useReducer } from "react";
-import { useState } from "react";
 import './About.css'
 
-const About = () => {
+import { Link } from "react-router-dom";
+
+const About = () => { 
     return (
         <div class="total">
             <div class="image">
@@ -52,11 +52,16 @@ const About = () => {
                 <div class="super2">
                     <h1 class="skills2">Achievements</h1> 
                     <div class="main5">
-                        <div class="box6"></div>
+                        <div class="box6"></div> 
                     </div> 
                 </div> 
+                <div class="super2"> 
+                    <div class="homebuttons">
+                        <Link to="/Login"><button class="explore1">Projects</button></Link>  
+                    </div> 
+                </div>  
             </div>
         </div>
-    )
+    ) 
 }
 export default About; 

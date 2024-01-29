@@ -7,6 +7,7 @@ import Login from './NavBar/Login';
 import Footer from './NavBar/Footer';
 import './NavBar/NavBar.css'
 import Signup from './NavBar/Signup';
+import Projects from './NavBar/Projects';
 
 import { Link } from 'react-router-dom';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
@@ -24,11 +25,12 @@ function App() {
             {/* <Route path="/Achievements" element={<Achievements/>}/> */}
             <Route path="/ContactUs" element={<ContactUs/>}/>
             <Route path="/Login" element={<Login/>}/> 
-            <Route path="/Signup" element={<Signup/>}/>   
+            <Route path="/Signup" element={<Signup/>}/>    
+            <Route path="/Projects" element={<Projects/>}/>    
           </Routes>
           <Footer />  
 
-      </BrowserRouter>
+      </BrowserRouter> 
       
     </div>
   );

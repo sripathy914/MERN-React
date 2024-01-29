@@ -1,0 +1,238 @@
+.imageP
+{
+   color: rgb(0, 0, 0);
+   background-image: url('./backimage.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 700px; 
+}
+.superP
+{
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 700px;
+   width: 100%;
+   align-items: center;
+   
+}
+.mainP
+{
+    width: 1000px;
+    padding: 0px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: aqua; 
+    gap:30px;
+}
+.portfolioP
+{
+    background-color: rgb(235, 23, 23);
+    height: 100px;
+    width: 1000px;
+}
+.pimage1
+{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+} 
+.ptext1
+{
+    background-color: rgb(21, 29, 255);
+    height: 300px;
+    width: 600px; 
+}
+
+
+
+.superv
+{
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 700px;
+   width: 100%;
+   align-items: center;
+   
+}
+.mainv
+{
+    width: 1000px;
+    padding: 0px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: aqua; 
+    gap:30px;
+}
+.virtualtitle
+{
+    background-color: rgb(235, 23, 23);
+    height: 100px;
+    width: 1000px;
+}
+.pimagev
+{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+} 
+.ptextv
+{
+    background-color: rgb(21, 29, 255);
+    height: 300px;
+    width: 600px; 
+}
+
+
+
+.supera
+{
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 700px;
+   width: 100%;
+   align-items: center;
+   
+}
+.maina
+{
+    width: 1000px;
+    padding: 0px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: aqua; 
+    gap:30px;
+}
+.aug_a
+{
+    background-color: rgb(235, 23, 23);
+    height: 100px;
+    width: 1000px;
+}
+.pimagea
+{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+} 
+.ptexta
+{
+    background-color: rgb(21, 29, 255);
+    height: 300px;
+    width: 600px; 
+}
+
+
+
+.supera1
+{
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 700px;
+   width: 100%;
+   align-items: center;
+   
+}
+.maina1
+{
+    width: 1000px;
+    padding: 0px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: aqua; 
+    gap:30px;
+}
+.aug_a1
+{
+    background-color: rgb(235, 23, 23);
+    height: 100px;
+    width: 1000px;
+}
+.pimagea1
+{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+} 
+.ptexta1
+{
+    background-color: rgb(21, 29, 255);
+    height: 300px;
+    width: 600px; 
+}
+
+
+
+.superimbl
+{
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 700px;
+   width: 100%;
+   align-items: center;
+   
+}
+.mainimbl
+{
+    width: 1000px;
+    padding: 0px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: aqua; 
+    gap:30px;
+}
+.imbltitle
+{
+    background-color: rgb(235, 23, 23);
+    height: 100px;
+    width: 1000px;
+}
+.pimageimbl
+{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+} 
+.ptextimbl 
+{
+    background-color: rgb(21, 29, 255);
+    height: 300px;
+    width: 600px;  
+}
+
+ 
