@@ -13,7 +13,7 @@ const Projects=()=>{
                         <div className="pimage1">
                             
                         </div>
-                        <div className="ptext1"> 
+                        <div className="ptext1">  
                             
                         </div>
                     </div>

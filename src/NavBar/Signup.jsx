@@ -2,17 +2,19 @@ import React from "react";
 import './Login.css';
 import Login from "./Login";
 import { Link } from "react-router-dom"; 
-
-const Signup =() =>{
-        return (
-            <div class="loginsignup"> 
+// import React,{useState} from 'react';
+import axios from "axios"
+const Signup =() =>{ 
+    // const [name,setName]=useState("")
+        return ( 
+            <div class="loginsignup">  
                 <div class="container">
                     <div class="form1">
                         <div class="form2">
                             <h2 class="logintext">Register</h2>  
-                            <form>
+                            <form /*onSubmit={handleSubmit}*/> 
                                 <table>
-                                    <tr>
+                                     <tr>
                                         <td><input type="text" placeholder="Enter your name"></input></td>
                                     </tr>
 

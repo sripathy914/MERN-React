@@ -12,7 +12,7 @@ const Memo=()=>
     }
     const theme= useMemo(()=>{
         return {
-            backgroundColor:dark?"black":"white",
+            backgroundColor:dark?"black":"white", 
             color:dark?"black":"white"
         }
     },[dark])
