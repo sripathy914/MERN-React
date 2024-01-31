@@ -68,8 +68,9 @@
    height: auto;
    width: 100%;
    align-items: center;
-   
-   background-color:black;
+   background-image: url("./paul-volkmer-fX-qWsXl5x8-unsplash-modified.jpg");
+   background-size: cover;
+   background-color:black; 
 }
 .skills
 {
@@ -85,6 +86,8 @@
 {
    font-size: 22px;
    margin-bottom: 20px;
+   color: white;
+   filter: drop-shadow(0px 0px 5px white);
 }
 .techskills
 {
@@ -140,7 +143,7 @@
    height: 400px;
    width: 400px;
    
-   background-color: aliceblue; 
+   
    border-radius: 10px;
 }
 .box4{
@@ -148,7 +151,7 @@
    border-radius: 10px;
    
    width: 400px;
-   background-color: aliceblue;
+   
 }
 .main2
 {
@@ -172,7 +175,7 @@
    border-radius: 10px;
    
    width: 400px;
-   background-color: aliceblue; 
+    
 }
 
 .main3
@@ -193,11 +196,13 @@
    display: flex;
    flex-direction: row;
    justify-content: center;
-   height: auto;
+   height: 600px;
    width: 100%;
    align-items: center;
-   
+   background-image: url("./paul-volkmer-fX-qWsXl5x8-unsplash-modified.jpg");
+   background-size: cover;
    background-color:black;
+   padding-bottom: 120px; 
 }
 .skills2
 {
@@ -216,7 +221,7 @@
    border-radius: 10px;
    
    width: 600px;
-   background-color: aliceblue;
+   
    
 } 
 .academics
@@ -227,29 +232,36 @@
    display: flex;
    flex-direction: column;
    justify-content: center;
-}
+   gap: 30px;
+
+} 
 .college
 {
    
    margin: 10px;
-   padding: 10px;
+   padding: 20px;
    background-color: rgb(46, 45, 45);
-   
+   color: white;
+   filter: drop-shadow(0px 0px 5px white);
 } 
 
 .hsc
 {
    
    margin: 10px;
-   padding: 10px;
+   padding: 20px;
    background-color: rgb(53, 51, 51);
+   color: white;
+   filter: drop-shadow(0px 0px 5px white);
 }
 .sslc
 {
    
    margin: 10px;
-   padding: 10px;
+   padding: 20px;
    background-color: rgb(49, 47, 47);
+   color: white;
+   filter: drop-shadow(0px 0px 5px white);
 }
  
 .main4
@@ -264,7 +276,7 @@
    margin-right: 100px;
    margin-left: 100px; 
    margin-top: 80px;
-   gap: 40px;
+   gap: 40px; 
 }
 .box7
 {
@@ -275,7 +287,7 @@
    border-radius: 10px;
    
    width: 400px;
-   background-color: aliceblue;
+   
    
 } 
 .language
@@ -283,6 +295,8 @@
    background-color: rgb(74, 73, 73);
    padding: 20px;
    color: white;
+   color: white;
+   filter: drop-shadow(0px 0px 5px white);
 }
 .box8
 {
@@ -294,25 +308,31 @@
    border-radius: 10px;
    
    width: 600px;
-   background-color: aliceblue;
+   
 }
 .coding
 {
    margin: 10px;
    padding: 20px;
    background-color: rgb(53, 51, 51);
+   color: white;
+   filter: drop-shadow(0px 0px 5px white);
 }
 .hackathon
 {
    margin: 10px;
    padding: 20px;
    background-color: rgb(53, 51, 51);
+   color: white;
+   filter: drop-shadow(0px 0px 5px white);
 }
 .academic
 {
    margin: 10px;
    padding: 20px;
    background-color: rgb(53, 51, 51);
+   color: white;
+   filter: drop-shadow(0px 0px 5px white);
 }
 .achievements
 {
@@ -322,6 +342,7 @@
    display: flex;
    flex-direction: column;
    justify-content: center;
+   gap: 20px;
 }
 .main5
 {
@@ -348,6 +369,7 @@
     filter: drop-shadow(0px 0px 10px white);
     transition: background-color 0.6s, color 0.6s, box-shadow 0.6s; 
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 .explore1:hover
 {
@@ -357,3 +379,38 @@
     box-shadow: 0px 0px 10px rgb(203, 189, 189);
     
 }  
+
+.super6::before, .super7::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-size: cover;
+   background-color: black;
+   z-index: -1; /* Ensure the pseudo-element is behind the content */
+ }
+ 
+ .super6::before {
+   background-image: url("./paul-volkmer-fX-qWsXl5x8-unsplash-modified.jpg");
+   transform: rotate(180deg);
+ }
+ 
+ .super7::before {
+   background-image: url("./paul-volkmer-fX-qWsXl5x8-unsplash-modified.jpg");
+   transform: rotate(180deg);
+ }
+ 
+ .super6, .super7 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   height: auto;
+   width: 100%;
+   align-items: center;
+   position: relative;
+   padding-bottom: 120px; /* Adjusted padding for .super7 to match your design */
+   color: white; /* Set text color */
+ }
+ 

@@ -24,10 +24,10 @@ const About = () => {
                     <h1 class="skills">Skill Set</h1> 
                     <div class="main2">
                         <div class="box5">
-                            <div class="tech">
+                            <div class="tech"> 
                                 <h1 class="head">Technical Skills</h1>
                                 <ol class="techskills">
-                                    <li>Full Stack Development</li>
+                                    <li>Full Stack Development</li> 
                                     <li>CI/CD, git, github VCS</li>
                                     <li>C, Python, Java, C#, C++</li>
                                     <li>Agile Methodology</li>
@@ -65,18 +65,18 @@ const About = () => {
                 </div>
 
                 <div class="super2">
-                    <h1 class="skills2">Academics</h1> 
+                    <h1 class="skills2">Academics</h1>  
                     <div class="main3">
                         <div class="box6">
-                            <div className="academics">
-                                <div className="college">
+                            <div className="academics"> 
+                                <div className="college"> 
                                     Bachelor of Computer Science And Design,<br/>
                                     Kongu Engineering College<br/>
                                     2021 – present<br/>
                                     CGPA till 4th semester - 8.39
                                 </div>
                                 <div className="hsc">
-                                    HSC, Little Angels Hr. Sec. School<br/>
+                                    HSC, Little Angels Hr. Sec. School<br/> 
                                     2021 | Namakkal<br/>
                                     95.4%
                                 </div>
@@ -88,32 +88,33 @@ const About = () => {
                             </div>
                         </div>
                     </div> 
+                </div> 
+                <div className="reverseimage">
+                    <div class="super6">  
+                        <h1 class="skills">Languages<br></br>Known</h1>
+                        <div class="main4"> 
+                            <div class="box7"> 
+                                <h1 class="head">Tamil</h1>
+                                <div class="language">Native proficiency</div> 
+                            </div>
+                            <div class="box7">
+                                <h1 class="head">Telugu</h1>
+                                <div class="language">Native proficiency</div>
+                            </div>
+                        </div>
+                        <div class="main4">
+                            <div class="box7"> 
+                                <h1 class="head">English</h1>
+                                <div class="language">Conversational proficiency <br/> Proficient in writing</div>
+                            </div>
+                            <div class="box7">
+                                <h1 class="head">Hindi</h1>
+                                <div class="language">Conversational proficiency <br/> Proficient in writing</div>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
-
-                <div class="super1">
-                    <h1 class="skills">Languages<br></br>Known</h1>
-                    <div class="main4">
-                        <div class="box7"> 
-                            <h1 class="head">Tamil</h1>
-                            <div class="language">Native proficiency</div>
-                        </div>
-                        <div class="box7">
-                            <h1 class="head">Telugu</h1>
-                            <div class="language">Native proficiency</div>
-                        </div>
-                    </div>
-                    <div class="main4">
-                        <div class="box7">
-                            <h1 class="head">English</h1>
-                            <div class="language">Conversational proficiency <br/> Proficient in writing</div>
-                        </div>
-                        <div class="box7">
-                            <h1 class="head">Hindi</h1>
-                            <div class="language">Conversational proficiency <br/> Proficient in writing</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="super2">
+                <div class="super2"> 
                     <h1 class="skills2">Achievements </h1> 
                     <div class="main5">
                         <div class="box8"> 
@@ -121,7 +122,7 @@ const About = () => {
                                 <div className="coding">
                                     First place in Bytes Blitz Coding - an Intra college level Competition
                                 </div>
-                                <div className="hackathon">
+                                <div className="hackathon"> 
                                     Participated in largest National level Hackathon - SIH 2023 
                                 </div>
                                 <div className="academic">
@@ -131,8 +132,8 @@ const About = () => {
                         </div> 
                     </div> 
                 </div> 
-                <div class="super2"> 
-                    <div class="homebuttons">
+                <div class="super7"> 
+                    <div class="homebuttons"> 
                         <Link to="/Login"><button class="explore1">Projects</button></Link>  
                     </div> 
                 </div>  
