@@ -48,7 +48,7 @@
 .innertext{
    height: 100px;
    width: 700px;
-   background-color: rgb(73, 74, 74);
+   background-color: rgb(30, 25, 25);
    border-radius: 10px;
    padding-top: 0px;
    width: 100%;
@@ -70,7 +70,7 @@
    align-items: center;
    background-image: url("./paul-volkmer-fX-qWsXl5x8-unsplash-modified.jpg");
    background-size: cover;
-   background-color:black; 
+   
 }
 .skills
 {
@@ -201,7 +201,7 @@
    align-items: center;
    background-image: url("./paul-volkmer-fX-qWsXl5x8-unsplash-modified.jpg");
    background-size: cover;
-   background-color:black;
+   
    padding-bottom: 120px; 
 }
 .skills2
@@ -240,7 +240,7 @@
    
    margin: 10px;
    padding: 20px;
-   background-color: rgb(46, 45, 45);
+   background-color: rgb(38, 36, 36);
    color: white;
    filter: drop-shadow(0px 0px 5px white);
 } 
@@ -250,7 +250,7 @@
    
    margin: 10px;
    padding: 20px;
-   background-color: rgb(53, 51, 51);
+   background-color: rgb(38, 36, 36);
    color: white;
    filter: drop-shadow(0px 0px 5px white);
 }
@@ -259,7 +259,7 @@
    
    margin: 10px;
    padding: 20px;
-   background-color: rgb(49, 47, 47);
+   background-color: rgb(38, 36, 36);
    color: white;
    filter: drop-shadow(0px 0px 5px white);
 }
@@ -292,7 +292,7 @@
 } 
 .language
 {
-   background-color: rgb(74, 73, 73);
+   background-color: rgb(38, 36, 36);
    padding: 20px;
    color: white;
    color: white;
@@ -314,7 +314,7 @@
 {
    margin: 10px;
    padding: 20px;
-   background-color: rgb(53, 51, 51);
+   background-color: rgb(38, 36, 36);
    color: white;
    filter: drop-shadow(0px 0px 5px white);
 }
@@ -322,7 +322,7 @@
 {
    margin: 10px;
    padding: 20px;
-   background-color: rgb(53, 51, 51);
+   background-color: rgb(38, 36, 36);
    color: white;
    filter: drop-shadow(0px 0px 5px white);
 }
@@ -330,7 +330,7 @@
 {
    margin: 10px;
    padding: 20px;
-   background-color: rgb(53, 51, 51);
+   background-color: rgb(38, 36, 36);
    color: white;
    filter: drop-shadow(0px 0px 5px white);
 }
@@ -413,4 +413,7 @@
    padding-bottom: 120px; /* Adjusted padding for .super7 to match your design */
    color: white; /* Set text color */
  }
- 
+ .homebuttons
+ {
+   padding-bottom: 100px;
+ }
