@@ -1,8 +1,12 @@
 import React from "react";
 import './About.css'
 
+
 import { Link } from "react-router-dom";
 
+const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
 const About = () => { 
     return (
         <div class="total">
@@ -134,11 +138,11 @@ const About = () => {
                 </div> 
                 <div class="super7"> 
                     <div class="homebuttons"> 
-                        <Link to="/Login"><button class="explore1">Projects</button></Link>  
+                        <Link to="/Projects"><button class="explore1" onClick={scrollToTop}>Projects</button></Link>  
                     </div> 
                 </div>  
             </div>
         </div>
     ) 
 }
-export default About; 
+export default About;  
