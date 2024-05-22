@@ -9,8 +9,9 @@ const Home = () => {
             <div class="home">
                 <div class="div1">
                     <h1 className="sripathy">Hey there,<span class="srispan"> I am Sripathy R S</span></h1>
-                    <p class="para">A Aspirical enthusiast who Lorem ipsum dolor sit amet consectetur adipisicing
-                        <br />elit. Labore, dolores Lorem ipsum dolor sit amet.</p>
+                    <p class="para">As a Computer Science enthusiast, I thrive on exploring diverse technologies, from AR/VR
+                                    innovations to full-stack development. Eager to collaborate with professionals, contribute to
+                    impactful projects..</p>
                 </div>
                 <div class="homebuttons">
                     <Link to="/About"><button class="explore">Explore</button></Link>
